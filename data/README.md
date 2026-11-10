@@ -2,7 +2,7 @@
 
 Synthetic data for product demos. No real customers are represented. Regenerate with `python3 scripts/generate_data.py`.
 
-The data covers 6,000 Peacock sign-ups between 1 October and 15 November 2025, observed until 15 January 2026. The NBA tip-off window is 21 to 27 October 2025.
+The data covers 6,000 Peacock sign-ups between October 1 and November 15, 2025, observed until January 15, 2026. The NBA tip-off window is October 21 to 27, 2025.
 
 ## subscribers.csv
 
@@ -17,7 +17,7 @@ One row per subscriber.
 | `acquisition_channel` | How the subscriber arrived |
 | `promo_offer` | Offer used at sign-up, or `None` |
 | `region` | US region |
-| `cancel_date` | Date the subscriber cancelled; empty if still active on 15 January 2026 |
+| `cancel_date` | Date the subscriber canceled; empty if still active on January 15, 2026 |
 
 ## subscriber_events.csv
 

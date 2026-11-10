@@ -1,4 +1,4 @@
-// Demo catalogue. Titles are made up for this demo.
+// Demo catalog. Titles are made up for this demo.
 module.exports = [
   { id: 't01', title: 'Harbor Lights', type: 'series', category: 'Drama', runtimeMin: 52 },
   { id: 't02', title: 'Courtside: Opening Night', type: 'live-replay', category: 'Sports', runtimeMin: 148 },
