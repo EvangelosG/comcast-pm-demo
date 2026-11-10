@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stream (demo)</title>
+  <link rel="stylesheet" href="/tokens.css">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Stream</h1>
+    <nav id="devices" aria-label="Device"></nav>
+  </header>
+  <main>
+    <section>
+      <h2>Continue Watching</h2>
+      <p class="hint" id="cw-empty">Nothing in progress on this device.</p>
+      <div class="row" id="continue-watching"></div>
+    </section>
+    <section>
+      <h2>Browse</h2>
+      <p class="hint">Select a title to watch 15 more minutes on the current device.</p>
+      <div class="row" id="browse"></div>
+    </section>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>

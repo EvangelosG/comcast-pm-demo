@@ -1,0 +1,26 @@
+epic_id,title,description,product_area,requested_by,reach_users_per_quarter,evidence,effort_person_weeks,depends_on,status
+STR-101,Continue watching across devices,Show the same Continue Watching row and resume point on every device signed in to a profile.,Home,Product,4200000,Raised by 9 of 12 interview participants; top theme in September 2026 study,14,STR-104,Proposed
+STR-102,Remove from Continue Watching,Let viewers remove a title from the Continue Watching row.,Home,Research,2600000,"Raised by 5 of 12 participants; 3,100 support contacts last quarter",3,,Proposed
+STR-103,Hide scores on sports replays,Spoiler-free cards and thumbnails for live sports replays.,Sports,Sports product,1900000,Raised by 4 of 12 participants; frequent app store review theme,5,,Proposed
+STR-104,Account-level watch progress service,Move watch progress from per-device storage to a profile-level service that all clients read and write.,Platform,Engineering,4200000,"Technical prerequisite for STR-101, STR-110 and STR-117",10,,Proposed
+STR-105,Pin Continue Watching to the top of Home,Keep the row in a fixed position above promotional rows on all devices.,Home,Research,3800000,Raised by 3 of 12 participants; row position varies by device today,2,,Proposed
+STR-106,Profile picker on TV launch,Ask who is watching when the TV app opens.,Profiles,Product,2900000,4 of 12 participants share one profile across a household,6,,Proposed
+STR-107,Kids profile PIN lock,Stop children leaving the kids profile without a PIN.,Profiles,Trust and safety,800000,Requested in parent survey; no usage data yet,4,STR-106,Proposed
+STR-108,Next-episode autoplay countdown redesign,Clearer countdown with an easy cancel.,Player,Design,3500000,Usability test: 6 of 8 participants missed the cancel control,4,,In discovery
+STR-109,Multiview for live sports,Watch up to four live games on one screen on TV devices.,Sports,Sports product,1100000,Competitor parity; strong interest in concept test (71 percent top-two box),22,,Proposed
+STR-110,Sync offline viewing progress,Progress from downloaded titles updates the profile once the device is back online.,Downloads,Product,600000,"Raised by 3 of 12 participants, all frequent travellers or commuters",6,STR-104,Proposed
+STR-111,Onboarding: pick three interests,Ask new subscribers for three interests and personalise Home from day one.,Growth,Growth,1500000,Subscribers who watch 2+ categories in their first week churn less in the 2025 tip-off cohort,7,,In discovery
+STR-112,Promo step-up reminder and offer,Remind promo subscribers before the price steps up and offer an annual plan.,Growth,Retention,900000,Cancellations from the NBA tip-off promo cluster in days 27 to 30,5,,Proposed
+STR-113,Search by voice on mobile,Voice search in the phone and tablet apps.,Search,Product,700000,Low volume of requests; parity with TV remote,8,,Proposed
+STR-114,Watchlist sharing,Share a watchlist with another profile or household.,Social,Marketing,300000,Idea from brand team; no customer evidence yet,9,STR-106,Idea
+STR-115,Accessibility: audio description filter,Filter the catalogue by audio description availability.,Accessibility,Accessibility,250000,Regulatory commitment for 2027; advocacy group request,3,,Committed
+STR-116,Player performance on older streaming sticks,Cut start-up time on low-memory devices.,Player,Engineering,2200000,Start-up time is 2.4x slower on these devices; correlates with early exits,12,,In discovery
+STR-117,Resume on a different device prompt,"When a viewer opens the app on a second device, prompt to resume what was playing on the first.",Home,Product,1800000,Extension of STR-101; concept untested,4,STR-101,Idea
+STR-118,Sports hub personalised by team,Follow teams and see their games first.,Sports,Sports product,1600000,Top request in sports survey (48 percent),11,,Proposed
+STR-119,Bundle management in app,Let Xfinity customers see and change their bundle from the Stream app.,Account,Xfinity,1300000,19 percent of billing calls are bundle questions,16,,Proposed
+STR-120,Dark-launch new recommendations model,A/B test the new Home ranking model on 5 percent of traffic.,Platform,Data science,210000,Offline evaluation shows 6 percent lift in predicted watch time,6,,Committed
+STR-121,Download quality selector,Choose download quality to save storage.,Downloads,Product,500000,Common app store request; storage complaints on 64GB phones,3,,Proposed
+STR-122,Live rewind to start,Restart a live event from the beginning.,Player,Sports product,1400000,Competitor parity; rights confirmed for most sports,9,,Proposed
+STR-123,Household viewing report for parents,Weekly email summary of what kids profiles watched.,Profiles,Trust and safety,400000,Parent survey: 34 percent interested,5,STR-106,Idea
+STR-124,Retire legacy TV app (2019 platform),Move remaining users to the current app and switch off the old one.,Platform,Engineering,350000,Legacy app costs about 1.5 engineers a quarter to maintain; blocks STR-104 rollout on those devices,8,,Proposed
+STR-125,Mark as watched,Let viewers mark an episode or film as watched so it leaves Continue Watching.,Home,Research,1200000,Raised alongside STR-102; titles above 90 percent linger in the row,2,,Proposed

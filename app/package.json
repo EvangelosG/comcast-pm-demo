@@ -1,0 +1,10 @@
+{
+  "name": "stream-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Small streaming home screen used for Devin product demos",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/progressStore.test.js"
+  }
+}

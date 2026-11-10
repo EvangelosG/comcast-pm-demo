@@ -1,0 +1,28 @@
+/* Stream design tokens. Every screen and prototype should use these. */
+:root {
+  --color-bg: #0d0d12;
+  --color-surface: #1a1a24;
+  --color-surface-raised: #262635;
+  --color-text: #f5f5fa;
+  --color-text-muted: #a3a3b8;
+  --color-brand: #6138f5;
+  --color-brand-strong: #4a22d6;
+  --color-accent: #ffb400;
+  --color-success: #2ecc8f;
+  --color-danger: #ff5a5f;
+
+  --font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-size-sm: 13px;
+  --font-size-md: 16px;
+  --font-size-lg: 22px;
+  --font-size-xl: 32px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 40px;
+
+  --radius-card: 12px;
+  --radius-pill: 999px;
+}
