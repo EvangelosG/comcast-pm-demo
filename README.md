@@ -2,14 +2,14 @@
 
 A demo workspace for showing Devin to product, research, analytics and strategy teams.
 
-Everything here is fictional. The data, interview participants, backlog and catalogue titles are synthetic and were written for demos. Nothing comes from Comcast systems.
+Everything here is fictional. The data, interview participants, backlog and catalog titles are synthetic and were written for demos. Nothing comes from Comcast systems.
 
 ## What is in here
 
 | Folder | Contents |
 |---|---|
 | `app/` | A small Stream home screen with a Continue Watching row |
-| `design-system/` | Colours, type, spacing and component rules for the app |
+| `design-system/` | Colors, type, spacing and component rules for the app |
 | `data/` | Synthetic Peacock sign-up and viewing data around the 2025 NBA tip-off |
 | `research/` | 12 customer interview transcripts about getting back to a show |
 | `backlog/` | 25 open epics with reach, evidence, effort and dependencies |

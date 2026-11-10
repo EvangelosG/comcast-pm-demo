@@ -75,8 +75,8 @@ def main():
 
         sports_fan = random.random() < (0.8 if promo.startswith("NBA") else 0.35)
         n_categories = 1 if sports_fan and random.random() < 0.55 else random.randint(2, 4)
-        favourites = (["Sports"] if sports_fan else []) + random.sample(CATEGORIES[1:], 3)
-        favourites = favourites[:n_categories]
+        favorites = (["Sports"] if sports_fan else []) + random.sample(CATEGORIES[1:], 3)
+        favorites = favorites[:n_categories]
 
         p = CHURN_BASE
         for key in (promo, channel, device, plan):
@@ -107,7 +107,7 @@ def main():
         n_sessions = max(1, min(30, int(active_days / 7 * sessions_per_week)))
         for _ in range(n_sessions):
             day = signed_up + timedelta(random.randint(0, max(active_days - 1, 0)))
-            category = random.choice(favourites)
+            category = random.choice(favorites)
             minutes = random.randint(60, 170) if category == "Sports" else random.randint(15, 95)
             watch_device = device if random.random() < 0.8 else pick(DEVICES)
             events.append([sid, day.isoformat(), "stream", category, minutes, watch_device])

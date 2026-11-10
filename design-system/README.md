@@ -1,6 +1,6 @@
 # Stream design system
 
-`tokens.css` holds the colours, type sizes, spacing and radii used by the Stream app.
+`tokens.css` holds the colors, type sizes, spacing and radii used by the Stream app.
 
 | Component | Rules |
 |---|---|
