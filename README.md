@@ -14,6 +14,7 @@ Everything here is fictional. The data, interview participants, backlog and cata
 | `research/` | 12 customer interview transcripts about getting back to a show |
 | `backlog/` | 25 open epics with reach, evidence, effort and dependencies |
 | `scripts/` | The script that generates the data |
+| `walkthrough/` | A standalone page with four example prompts and their outputs. Download `devin-for-product-teams.html` and open it in a browser |
 
 ## Run the app
 
