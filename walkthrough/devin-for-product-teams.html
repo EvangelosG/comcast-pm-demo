@@ -49,17 +49,18 @@ figure.doc img{max-width:760px}
 .warn{background:#fff7e6;border:1px solid #f1d18a;border-radius:12px;padding:16px 24px;font-size:14px;margin:0 0 24px}
 .check{background:var(--alt);border-radius:12px;padding:24px 32px;margin-top:32px}
 .check ul{margin:0;padding-left:20px}.check li{font-size:14.5px;color:var(--ink2);margin:8px 0}
-.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:32px 0 40px}.grid3 .card p+p{margin-top:8px}.grid3 em{font-style:normal;color:var(--ink)}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.intro{padding:0 0 88px}.mental{font:400 24px/1.4 var(--serif);max-width:820px;margin:0 0 8px}
 .steps{counter-reset:s;list-style:none;padding:0;margin:32px 0 0;display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
 .steps li{counter-increment:s;background:#fff;border:1px solid var(--line);border-radius:12px;padding:24px;font-size:14.5px;color:var(--ink2)}
 .steps li::before{content:counter(s,decimal-leading-zero);display:block;font:12px var(--mono);color:var(--ink2);margin-bottom:12px}
 .steps li strong{display:block;color:var(--ink);font-size:16px;margin-bottom:4px}
 footer{padding:48px 0;font-size:13px;color:var(--ink2)}
-@media(max-width:900px){h1{font-size:40px}h2{font-size:30px}.grid5,.grid3,.steps,.two,.modes{grid-template-columns:1fr}.meta{grid-template-columns:1fr 1fr}.meta div{border-bottom:1px solid var(--line)}
-.protowrap{grid-template-columns:1fr;justify-items:center;padding:16px}.wrap{padding:0 20px}.hero{padding:56px 20px 48px}.ex{padding:56px 0}.band{padding:56px 0}.meta div{padding:12px 16px}.prompt{padding:16px}.check{padding:20px}nav{display:none}}
+@media(max-width:900px){h1{font-size:40px}h2{font-size:30px}.grid5,.grid4,.steps,.two,.modes{grid-template-columns:1fr}.meta{grid-template-columns:1fr 1fr}.meta div{border-bottom:1px solid var(--line)}
+.protowrap{grid-template-columns:1fr;justify-items:center;padding:16px}.wrap{padding:0 20px}.hero{padding:56px 20px 48px}.ex{padding:56px 0}.intro{padding:0 0 56px}.band{padding:56px 0}.meta div{padding:12px 16px}.prompt{padding:16px}.check{padding:20px}nav{display:none}}
 </style></head><body>
 <header class="top"><div class="wrap"><div class="brand">Cognition <span>/ Devin for product teams</span></div>
-<nav><a href="#how">How to ask</a><a href="#prototype">Prototype</a><a href="#data">Data</a><a href="#deck">Deck</a><a href="#roadmap">Roadmap</a><a href="#next">Reuse</a><a href="#start">Get started</a></nav></div></header>
+<nav><a href="#intro">Overview</a><a href="#how">How to ask</a><a href="#prototype">Prototype</a><a href="#data">Data</a><a href="#deck">Deck</a><a href="#roadmap">Roadmap</a><a href="#next">Set up</a><a href="#start">Get started</a></nav></div></header>
 
 <div class="wrap hero">
   <p class="eyebrow">Four worked examples</p>
@@ -67,6 +68,16 @@ footer{padding:48px 0;font-size:13px;color:var(--ink2)}
   <p class="lede">Each example below shows the exact prompt, how long it took, and the real output from one run. Copy a prompt, change the parts in brackets, and try it on your own work.</p>
   <p class="note">Everything here uses a demo workspace. The data, interviews, backlog and show titles are synthetic and written for this demo. Nothing comes from Comcast systems.</p>
 </div>
+
+<div class="wrap"><section id="intro" class="intro">
+  <p class="eyebrow">Overview</p>
+  <h2>Devin supports non-engineering teams, acting like a junior employee</h2>
+  <p class="mental">Devin is a junior employee that reads your product, code, docs and data, then returns work you can review: specs, syntheses, analyses and prototypes.</p>
+  <h3>Who it helps</h3>
+  <div class="grid4"><div class="card"><div class="n">01</div><h4>Product managers</h4><p>Define customer problems and product requirements, shape solutions and work with design and engineering to deliver them.</p></div><div class="card"><div class="n">02</div><h4>Researchers</h4><p>Build understanding of customers, their needs and behaviors, and bring evidence into product decisions.</p></div><div class="card"><div class="n">03</div><h4>Analytics</h4><p>Use data to understand customer and product performance and support evidence-based decisions.</p></div><div class="card"><div class="n">04</div><h4>Strategists</h4><p>Explore customer, market and business opportunities and help shape longer-term product direction.</p></div></div>
+  <h3>How these teams work with Devin</h3>
+  <div class="grid4"><div class="card"><div class="n">Ask</div><h4>Ask Devin and DeepWiki</h4><p>Ask how the product works in plain language. Answers cite the code and docs they come from, so no IDE is needed.</p></div><div class="card"><div class="n">Hand off</div><h4>Sessions</h4><p>Hand off a task from the web app, Slack or Teams. Devin works on its own machine and returns a doc, spreadsheet, deck, prototype, analysis or pull request.</p></div><div class="card"><div class="n">Repeat</div><h4>Playbooks and schedules</h4><p>Save a prompt that worked as a playbook, then run it on a schedule: a weekly readout, a monthly KPI pack, release notes.</p></div><div class="card"><div class="n">Connect</div><h4>Connected tools</h4><p>Jira, Confluence, Notion, Google Drive, Slack and your data warehouse through MCP, within the access your admins grant.</p></div></div>
+</section></div>
 
 <div class="band" id="how"><div class="wrap">
   <p class="eyebrow">How to ask</p>
@@ -543,13 +554,10 @@ Send me:
 </section>
 <section id="next" class="ex">
   <p class="eyebrow">After your first session</p>
-  <h2>Reuse what works, ask questions, run it on a schedule</h2>
-  <p class="lede">The four examples are one-off sessions. These three features turn a good result into something your team can repeat.</p>
-  <div class="grid3">
-    <div class="card"><div class="n">Playbooks</div><h4>Save a process you repeat</h4><p>A Playbook is a reusable prompt your team can share. Once a deck looks the way you want, ask Devin to write up how it made it as a Playbook. Anyone can then attach it to a new session by typing its shortcut.</p><p><em>Example: type "!strategy-deck" in a new session, then name the topic.</em></p></div>
-    <div class="card"><div class="n">DeepWiki and Ask Devin</div><h4>Understand a product before you change it</h4><p>When your organization connects and indexes a repository, DeepWiki gives you a readable guide to it and Ask Devin answers questions about it in plain language, with links to the code. Nothing gets changed.</p><p><em>Example: "Why would something I started on my TV not show up on my phone?"</em></p></div>
-    <div class="card"><div class="n">Automations</div><h4>Run work on a schedule or when something happens</h4><p>An automation starts a Devin session on a schedule, or when something happens in a tool such as Jira or Slack: a ticket is marked as a bug, or someone asks a question in a channel. You describe it in plain language and Devin sets it up.</p><p><em>Example: "Every month, refresh the roadmap and post it to Slack."</em></p></div>
-  </div>
+  <h2>Set it up yourself</h2>
+  <p class="lede">The overview at the top explains Playbooks, schedules and connected tools. This is how to start using them.</p>
+  <h3>Save a Playbook</h3>
+  <p class="why" style="margin-top:0">When a session gives you a result you like, such as a deck in the style you want, ask Devin to write up how it made it as a Playbook. Anyone on your team can then attach it to a new session by typing its shortcut, for example <strong>!strategy-deck</strong>, and naming the topic.</p>
   <h3>Describe an automation</h3>
 <div class="tabs" data-tabs>
   <div class="tabbar">
