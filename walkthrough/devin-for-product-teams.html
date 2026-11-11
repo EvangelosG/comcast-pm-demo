@@ -428,7 +428,7 @@ function go(screen, titleId, quiet) {
   if (screen === &#x27;home&#x27;) renderHome();
   if (screen === &#x27;title&#x27;) renderTitle();
   if (screen === &#x27;play&#x27;) renderPlayer(true);
-  if (!quiet) history.replaceState(null, &#x27;&#x27;, &#x27;#&#x27; + screen);
+  if (!quiet) { try { history.replaceState(null, &#x27;&#x27;, &#x27;#&#x27; + screen); } catch (e) {} }
 }
 
 Array.prototype.forEach.call(document.querySelectorAll(&#x27;[data-go]&#x27;), function (b) {
